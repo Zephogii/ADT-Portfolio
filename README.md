@@ -12,4 +12,3 @@
 Additional Information:
 
 - I am eager to learn and improve my development skills.
->>>>>>> fa64ff801104547fb129293920574ec1d4c6fdeb
