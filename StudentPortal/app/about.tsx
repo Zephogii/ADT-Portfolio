@@ -4,7 +4,9 @@ export default function AboutScreen() {
   return (
     <View style={styles.container}>
 
-      <Text style={styles.title}>About</Text>
+      <Text style={styles.title}>
+        About
+      </Text>
 
       <Text style={styles.text}>
         Student Portal Application
