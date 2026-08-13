@@ -5,7 +5,9 @@ export default function HomeScreen() {
   return (
     <View style={styles.container}>
 
-      <Text style={styles.title}>Student Portal</Text>
+      <Text style={styles.title}>
+        Student Portal
+      </Text>
 
       <Text style={styles.subtitle}>
         Welcome to the Student Portal Application
@@ -13,23 +15,38 @@ export default function HomeScreen() {
 
       <Pressable
         style={styles.button}
-        onPress={() => router.push("/about")}
+        onPress={() => router.push("/register")}
       >
-        <Text style={styles.buttonText}>About</Text>
-      </Pressable>
-
-      <Pressable
-        style={styles.button}
-        onPress={() => router.push("/contact")}
-      >
-        <Text style={styles.buttonText}>Contact</Text>
+        <Text style={styles.buttonText}>
+          Student Registration
+        </Text>
       </Pressable>
 
       <Pressable
         style={styles.button}
         onPress={() => router.push("/profile")}
       >
-        <Text style={styles.buttonText}>Profile</Text>
+        <Text style={styles.buttonText}>
+          Saved Student Information
+        </Text>
+      </Pressable>
+
+      <Pressable
+        style={styles.button}
+        onPress={() => router.push("/about")}
+      >
+        <Text style={styles.buttonText}>
+          About
+        </Text>
+      </Pressable>
+
+      <Pressable
+        style={styles.button}
+        onPress={() => router.push("/contact")}
+      >
+        <Text style={styles.buttonText}>
+          Contact
+        </Text>
       </Pressable>
 
     </View>
@@ -60,7 +77,7 @@ const styles = StyleSheet.create({
   },
 
   button: {
-    width: 220,
+    width: 280,
     backgroundColor: "#E6B25C",
     paddingVertical: 15,
     borderRadius: 10,
@@ -70,7 +87,7 @@ const styles = StyleSheet.create({
   buttonText: {
     color: "#fff",
     textAlign: "center",
-    fontSize: 18,
+    fontSize: 17,
     fontWeight: "bold",
   },
 });
