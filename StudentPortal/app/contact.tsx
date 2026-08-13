@@ -4,16 +4,33 @@ export default function ContactScreen() {
   return (
     <View style={styles.container}>
 
-      <Text style={styles.title}>Contact</Text>
+      <Text style={styles.title}>
+        Contact
+      </Text>
 
-      <Text style={styles.label}>Email</Text>
-      <Text style={styles.text}>josephduetes.duplajr@mysmciligan.edu.ph</Text>
+      <Text style={styles.label}>
+        Email
+      </Text>
 
-      <Text style={styles.label}>Phone</Text>
-      <Text style={styles.text}>09469007637</Text>
+      <Text style={styles.text}>
+        josephduetes.duplajr@mysmciligan.edu.ph
+      </Text>
 
-      <Text style={styles.label}>Address</Text>
-      <Text style={styles.text}>Iligan City</Text>
+      <Text style={styles.label}>
+        Phone
+      </Text>
+
+      <Text style={styles.text}>
+        09469007637
+      </Text>
+
+      <Text style={styles.label}>
+        Address
+      </Text>
+
+      <Text style={styles.text}>
+        Iligan City
+      </Text>
 
     </View>
   );
