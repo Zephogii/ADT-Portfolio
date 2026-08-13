@@ -21,6 +21,20 @@ export default function RootLayout() {
       />
 
       <Stack.Screen
+        name="register"
+        options={{
+          title: "Student Registration",
+        }}
+      />
+
+      <Stack.Screen
+        name="student-info"
+        options={{
+          title: "Saved Student Information",
+        }}
+      />
+
+      <Stack.Screen
         name="about"
         options={{
           title: "About",
